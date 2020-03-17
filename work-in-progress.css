@@ -1,6 +1,6 @@
 @font-face  
     {
-        font-family: "Craked-code";
+        font-family: "Cracked-Code";
         src: url("Cracked-Code.ttf");
     }
 html
@@ -17,11 +17,16 @@ body
         margin: 0;
         display: flex;
         flex-direction: column;
-        font-family: "Craked-code";
-        font-size: 50px;
+        font-family: "Cracked-Code";
     }
 main    
     {
         display: flex;
         flex-direction: column;
+    }
+#maintenance
+    {
+        display: flex;
+        align-items: center;
+        
     }
