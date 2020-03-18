@@ -17,16 +17,87 @@ body
         margin: 0;
         display: flex;
         flex-direction: column;
-        font-family: "Cracked-Code";
+        font-family: "Cracked-Code", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        flex-grow: 1;
     }
 main    
     {
         display: flex;
         flex-direction: column;
+        flex-grow: 1;
     }
 #maintenance
     {
         display: flex;
+        justify-content: center;
+        flex-grow: 0.2;
+    }
+#maintenance h1
+{
+    display: flex;
+    color: white;
+    font-size: 30px;
+    text-shadow: 4px 4px 0px rgba(170, 8, 4, 0.568), -4px -4px 0 rgba(2, 212, 202, 0.568);
+}
+#contenu
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         align-items: center;
-        
+        flex-grow: 0.5;
+    }
+#image
+    {
+        display: flex;
+        justify-content: center;
+        width: 40vw;
+    }
+#hacker
+    {
+        width: 30vw;
+        border: 1px solid white;
+        box-shadow: 3px 3px 0px rgba(170, 8, 4, 0.568), -3px -3px 0 rgba(2, 212, 202, 0.568);
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+
+    }
+#texte
+    {
+        display: flex;
+        justify-content: center;
+        width: 30vw;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 25px;
+        margin-right: 2vw;
+        color: white;
+    }
+footer
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-grow: 0.1;
+    }
+#jeu a
+    {
+        text-decoration: none;
+        color: rgb(2, 212, 201);
+    }
+#mail a
+    {
+        text-decoration: none;
+        color: rgb(170, 7, 4);
+    
+    }
+#jeu a:hover
+    {
+        color: white
+    }
+#mail a:hover
+    {
+        color: white
     }
