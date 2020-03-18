@@ -113,7 +113,8 @@ footer
         justify-content: space-evenly;
         flex-grow: 0.1;
         border-top: 1px solid black;
-        border-radius: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
         box-shadow: 0 -3px 0 white;
         padding-top: 1vh;
         background: -webkit-linear-gradient(left,rgba(170, 7, 4, 0.336), rgba(2, 212, 201, 0.336) );
