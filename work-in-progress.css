@@ -62,7 +62,8 @@ main
     {
         display: flex;
         justify-content: center;
-        width: 40vw;
+        width: 30vw;
+        margin-left: 5vw;
     }
 #hacker
     {
@@ -74,6 +75,26 @@ main
         border-top-right-radius: 3px;
         border-bottom-left-radius: 3px;
     }
+#joueur
+    {
+        display: none;
+        width: 30vw;
+        height: 41.5vh;
+        border: 1px solid white;
+        box-shadow: 3px 3px 0px rgba(170, 8, 4, 0.568), -3px -3px 0 rgba(2, 212, 202, 0.568);
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+#image:hover #joueur
+    {
+        display: block;
+    }
+#image:hover #hacker
+    {
+        display: none;
+    }
 #texte
     {
         display: flex;
@@ -82,7 +103,7 @@ main
         text-align: center;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 25px;
-        margin-right: 2vw;
+        margin-right: 5vw;
         color: white;
     }
 footer
@@ -91,6 +112,11 @@ footer
         flex-direction: row;
         justify-content: space-evenly;
         flex-grow: 0.1;
+        border-top: 1px solid black;
+        border-radius: 10px;
+        box-shadow: 0 -3px 0 white;
+        padding-top: 1vh;
+        background: -webkit-linear-gradient(left,rgba(170, 7, 4, 0.336), rgba(2, 212, 201, 0.336) );
     }
 #jeu a
     {
