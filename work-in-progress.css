@@ -48,7 +48,7 @@ main
     color: white;
     font-size: 30px;
     text-shadow: 4px 4px 0px rgba(170, 8, 4, 0.568), -4px -4px 0 rgba(2, 212, 202, 0.568);
-    animation: mouvement 3s infinite alternate;
+    animation: mouvement 4s infinite alternate;
     }
 #contenu
     {
