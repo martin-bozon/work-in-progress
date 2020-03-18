@@ -3,6 +3,15 @@
         font-family: "Cracked-Code";
         src: url("Cracked-Code.ttf");
     }
+@keyframes mouvement
+    {
+        0%{
+            transform: translateX(-100px);
+            }
+        100%{
+            transform: translateX(100px);
+            }   
+    }
 html
     {
         background-image: url("main.png");
@@ -32,13 +41,15 @@ main
         justify-content: center;
         flex-grow: 0.2;
     }
+
 #maintenance h1
-{
+    {
     display: flex;
     color: white;
     font-size: 30px;
     text-shadow: 4px 4px 0px rgba(170, 8, 4, 0.568), -4px -4px 0 rgba(2, 212, 202, 0.568);
-}
+    animation: mouvement 3s infinite alternate;
+    }
 #contenu
     {
         display: flex;
@@ -62,7 +73,6 @@ main
         border-bottom-right-radius: 10px;
         border-top-right-radius: 3px;
         border-bottom-left-radius: 3px;
-
     }
 #texte
     {
